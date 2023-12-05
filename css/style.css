@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.7;
+    font-size: 14px;
+    background: rgba(96, 195, 249, 0.727);
+}
+
+.profile-container {
+    max-width: 440px;
+    padding: 20px;
+}
+
+.profile-block {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-bottom: 10px;
+    
+}
+
+.user-photo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-button {
+    padding: 5px 10px;
+    font-size: 10px;
+    background-color: rgba(96, 195, 249, 0.727);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.post-button:hover {
+    background-color: rgb(22, 22, 189);
+}

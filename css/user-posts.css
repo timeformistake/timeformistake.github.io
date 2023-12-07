@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.7;
+    font-size: 14px;
+    background: rgba(96, 195, 249, 0.727);
+}
+
+h2 {
+    color:rgb(0, 60, 144);
+}
+
+h2:nth-of-type(2) {
+    padding-top: 15px;
+}
+
+#main-container {
+    background-color: white;
+    max-width: 1440px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.user-info {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#user-posts strong {
+    color:rgb(0, 60, 144);
+    font-size: 14px;
+}
+
+#backButton {
+    margin-top: 15px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: rgba(96, 195, 249, 0.727);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-photos {
+    width: 70px;
+    margin-right: 10px;
+}
